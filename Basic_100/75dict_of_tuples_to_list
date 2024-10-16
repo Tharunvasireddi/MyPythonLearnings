@@ -1,0 +1,8 @@
+def conversion(my_dict):
+    my_list=[]
+    for key in my_dict:
+        my_list.append(my_dict[key])
+    return my_list
+dict={0:(1,2,3),1:("tharun","vasu","ananth"),2:(19,18.23)}
+my_list=conversion(dict)
+print("the list of tuples is :",my_list)
